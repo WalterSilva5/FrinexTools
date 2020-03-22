@@ -1,5 +1,5 @@
-from model.modelTelaSistema import ModelTelaSistema
-from controller.controllerTelaSistema import ControllerTelaSistema
+from model.ModelTela import ModelTela
+from controller.ControllerTela import ControllerTela
 from PyQt5.QtWidgets import QApplication
 
 import sys
@@ -7,8 +7,8 @@ import sys
 class App(QApplication):
     def __init__(self, sys_argv):
         super(App, self).__init__(sys_argv)
-        self.model = ModelTelaSistema()
-        self.view = ControllerTelaSistema(self.model)
+        self.model = ModelTela()
+        self.view = ControllerTela(self.model)
         self.view.show()
 
 
