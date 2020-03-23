@@ -24,7 +24,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.modulosFrame = QtWidgets.QFrame(self.centralwidget)
-        self.modulosFrame.setGeometry(QtCore.QRect(0, 10, 331, 581))
+        self.modulosFrame.setGeometry(QtCore.QRect(10, 10, 331, 581))
         self.modulosFrame.setStyleSheet("background-color: rgb(206, 202, 255);\n"
 "border-radius: 10px;")
         self.modulosFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
@@ -81,7 +81,7 @@ class Ui_MainWindow(object):
         self.lineEdit.setText("")
         self.lineEdit.setObjectName("lineEdit")
         self.frameInicial = QtWidgets.QFrame(self.centralwidget)
-        self.frameInicial.setGeometry(QtCore.QRect(340, 10, 751, 581))
+        self.frameInicial.setGeometry(QtCore.QRect(350, 10, 741, 581))
         self.frameInicial.setStyleSheet("background-color: rgb(206, 202, 255);\n"
 "border-radius: 10px;")
         self.frameInicial.setFrameShape(QtWidgets.QFrame.StyledPanel)

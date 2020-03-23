@@ -35,7 +35,7 @@
    <widget class="QFrame" name="modulosFrame">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>10</y>
       <width>331</width>
       <height>581</height>
@@ -175,9 +175,9 @@ height: 40%;</string>
    <widget class="QFrame" name="frameInicial">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>350</x>
       <y>10</y>
-      <width>751</width>
+      <width>741</width>
       <height>581</height>
      </rect>
     </property>
