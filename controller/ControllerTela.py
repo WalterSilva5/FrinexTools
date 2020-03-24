@@ -14,9 +14,9 @@ class ControllerTela(QMainWindow):
 
 
     def abre1CalcularPorcentagemParaDescontos(self):
-        caminho = path[0]+"/modulos/calculoDePorcentagens/CalculoDePorcentagens.py"
+        caminho = path[0]+"/modulos/calculoDePorcentagens/CalculoDePorcentagens.pyw"
         os.system("python "+caminho)
 
     def abreFormatarNumerosParaNotas(self):
-        caminho = path[0]+"/modulos/formatarChavesDeNotas/FormatarChavesDeNotas.py"
+        caminho = path[0]+"/modulos/formatarChavesDeNotas/FormatarChavesDeNotas.pyw"
         os.system("python "+caminho)
