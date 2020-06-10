@@ -1,5 +1,6 @@
 
 ----------- estrutura do projeto -----------
+<pre>
 project/
     mvc_app.py              # main application with App class
     mvc_app_rc.py           # auto-generated resources file (using pyrcc.exe or equivalent)
@@ -19,4 +20,6 @@ project/
         main_view_ui.py     # auto-generated ui file (using pyuic.exe or equivalent)
         other_view.py
         other_view_ui.py
+</pre>
 --------------------------------------------
+
